@@ -36,7 +36,7 @@
 /**@name Product Key (浜у搧鏍囪瘑鐮�)
 * @{
 */
-#define PRODUCT_KEY                   "0e4091507a5c4632b2acafbe5dee35ef"
+#define PRODUCT_KEY                   "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
 /**@} */
 
 #define BUFFER_LEN_MAX                900
