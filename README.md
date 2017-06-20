@@ -3,7 +3,7 @@
 
 从接触机智云Gokit一步一坑，大坑套小坑也算挺过来了,把遇到的问题和经验分享给大家，帮助新人少走一些弯路。
 
-####一、环境搭建
+#### 一、环境搭建
 1.下载安装eclipse一体化开发环境
 下载地址：[http://pan.baidu.com/s/1skRvR1j](http://pan.baidu.com/s/1skRvR1j) 
 
@@ -28,7 +28,7 @@ SPI_SIZE_MAP?=6
 ```
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/3094797-6b7c92b55fc33846.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####二、GoKit3开发套件
+#### 二、GoKit3开发套件
 1、GoKit3(S) - SoC版（乐鑫模组(GoKit3转接板)+底板+GoKit3功能板）
 ![](http://upload-images.jianshu.io/upload_images/3094797-e628e098456f2839.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/3094797-c5c712c61ca79204.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -55,7 +55,7 @@ MCU模式
 SOC模式
 ```
 
-####三、烧录选项配置
+#### 三、烧录选项配置
 ```
 
 1. 前三个 ‘.bin’ 文件都在\bin 目录下，选择对应的名称的 ‘.bin’文件即可。
@@ -99,7 +99,7 @@ TX接RX
 若显示“完成”及烧录成功
 
 
-####四、源码改写
+#### 四、源码改写
 ```
 
 只需要关心文件路径为“GizLamp\app”下面的几个地方：
@@ -249,7 +249,7 @@ int8_t ICACHE_FLASH_ATTR gizwitsEventProcess(eventInfo_t *info, uint8_t *data, u
 }
 ```
 
-###实际效果：
+### 实际效果：
 
 
 
